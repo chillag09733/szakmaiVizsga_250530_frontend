@@ -2,12 +2,25 @@
   text-align: center;
 }
 
-#tema, #inputmezo{
+#tema{
   width: 30%;
 }
 
+.first-row{
+  font-weight: bold;
+  margin-block: 10px;
+  border: 0.5px solid lightgray;
+}
+
+.sorok{
+  margin-block: 10px;
+  border: 0.5px solid lightgray;
+}
+
+
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  .sorok{
+    display: grid;
+
   }
 }
